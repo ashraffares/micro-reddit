@@ -1,8 +1,8 @@
 class Author < ApplicationRecord
-  validate :username, :email, :password, presence: true
-  validate :username, :email, uniqueness: true
-  validate :username, length: { minimum: 4, maximum: 12 }
-  validate :password, length: { minimum: 6, maximum: 16 }
+  validates :username, :email, :password, presence: true
+  validates :username, :email, uniqueness: true
+  validates :username, length: { minimum: 4, maximum: 12 }
+  validates :password, length: { minimum: 6, maximum: 16 }
 
   has_many :post
   has_many :comment

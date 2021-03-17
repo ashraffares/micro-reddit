@@ -1,11 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Scraper-Ruby
+# Active-record
 
- This is implementation of scraper in ruby putting emphasis on the use of how to scrape list of inforamtion on websites and enumerable methods classes objects inheritance.
-
-![Capture](https://user-images.githubusercontent.com/37639594/109302596-2c386480-7842-11eb-86fb-3eea5b6ef6ef.PNG)
-![Capture1](https://user-images.githubusercontent.com/37639594/109302598-2d699180-7842-11eb-8b5c-97896a54f8db.PNG)
+![Capture1](https://user-images.githubusercontent.com/37639594/111469494-6ef9a800-872f-11eb-9bbc-98e9b958eaff.PNG)
+![Capture2](https://user-images.githubusercontent.com/37639594/111469497-6f923e80-872f-11eb-917d-80512a3e56d7.PNG)
 
 ## Description
 This program implements a basic active record action in ruby on rails with three model classes and assoications between these models
@@ -42,12 +40,12 @@ Additional description about the project and its features.
 ## Built With
 - Ruby on Rails
 
-## Authors
+## Author1
 - GitHub: [@githubhandle](https://github.com/ashraffares/http-ashraffares.github.io-)
 - Twitter: [@twitterhandle](https://twitter.com/Fares09301164)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fares-ashraf-382a35176/)
 
-## Authors
+## Author2
 - GitHub: [@githubhandle](https://github.com/nganifaith)
 - Twitter: [@twitterhandle](https://twitter.com/Bright_Ngani)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ngani-faith/)

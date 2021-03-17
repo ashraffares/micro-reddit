@@ -5,4 +5,5 @@ class Author < ApplicationRecord
   validate :password, length: { minimum: 6, maximum: 16 }
 
   has_many :post
+  has_many :comment
 end

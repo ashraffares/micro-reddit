@@ -3,4 +3,5 @@ class Post < ApplicationRecord
   validate :title, uniqueness: true
 
   belong_to :author
+  has_many :comment
 end

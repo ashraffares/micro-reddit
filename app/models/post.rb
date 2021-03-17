@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
-  validate :title, :body, presence: true
+  validate :title, :body, :author_id, presence: true
   validate :title, uniqueness: true
 
   belong_to :author

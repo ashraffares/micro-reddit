@@ -8,7 +8,34 @@
 ![Capture1](https://user-images.githubusercontent.com/37639594/109302598-2d699180-7842-11eb-8b5c-97896a54f8db.PNG)
 
 ## Description
-- this program is implementation 3 models 
+This program implements a basic active record action in ruby on rails with three model classes and assoications between these models
+
+- Author model: The author model implements four validation for the authors table: 
+      - Presence of all fields when adding an author
+      - Username must be unique and length  between 4 - 12
+      - Password must of length between 6 - 16
+      - email must be unique
+
+- Post model: The post model implements a validation for the posts table: 
+      - Presence of all fields when adding a post
+
+- Comment model: The post model implements a validation for the comment table: 
+      - Presence of all fields when adding a post
+
+
+## Association
+
+Program implements 2 main association: Has_many and the belongs_to
+
+#### Has_many
+ - A post has many comments
+ - An author has many posts
+ - An author has many comments
+
+#### Belongs_to
+
+  - A post belongs to an Auhtor
+  - A comment belongs to a post
 
 Additional description about the project and its features.
 
